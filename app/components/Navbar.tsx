@@ -14,7 +14,7 @@ export default function Navbar() {
 
                <li><Link href="/contact" className="hover:text-gray-300">Contact</Link></li>
 
-               <li><Link href="/blog" className="hover:text-gray-300">Contact</Link></li>
+               <li><Link href="/blog" className="hover:text-gray-300">Blog</Link></li>
 
            </ul>
 
