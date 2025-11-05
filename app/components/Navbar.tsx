@@ -29,6 +29,8 @@ export default function Navbar() {
                <li><Link href="/about" className={getLinkClass('/about')}>About</Link></li>
                <li><Link href="/contact" className={getLinkClass('/contact')}>Contact</Link></li>
                <li><Link href="/blog" className={getLinkClass('/blog')}>Blog</Link></li>
+               {/* Lab 4- added login page to navbar */}
+               <li><Link href="/auth/login" className={getLinkClass('login')}>Login</Link></li>
            </ul>
        </nav>
     );

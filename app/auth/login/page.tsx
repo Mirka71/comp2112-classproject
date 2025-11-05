@@ -1,6 +1,9 @@
 'use client';
 import PageTitle from "../../components/PageTitle"
 
+
+import Link from "next/link";
+
 // import useState in order to create a state var
 import { useState } from "react";
 // Lab 4 - Login Form
